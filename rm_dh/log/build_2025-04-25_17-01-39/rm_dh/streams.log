@@ -1,0 +1,27 @@
+[0.022s] Invoking command in '/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh -- -j12 -l12
+[0.130s] [35m[1mConsolidate compiler generated dependencies of target rm_dh[0m
+[0.180s] [ 50%] [32mBuilding CXX object CMakeFiles/rm_dh.dir/src/rm_dh.cpp.o[0m
+[16.085s] [100%] [32m[1mLinking CXX executable rm_dh[0m
+[16.939s] [100%] Built target rm_dh
+[16.974s] Invoked command in '/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh -- -j12 -l12
+[17.000s] Invoking command in '/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh
+[17.023s] -- Install configuration: ""
+[17.023s] -- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/launch
+[17.024s] -- Installing: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/lib/rm_dh/rm_dh
+[17.039s] -- Set runtime path of "/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/lib/rm_dh/rm_dh" to ""
+[17.040s] -- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/ament_index/resource_index/package_run_dependencies/rm_dh
+[17.040s] -- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/ament_index/resource_index/parent_prefix_path/rm_dh
+[17.040s] -- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/environment/ament_prefix_path.sh
+[17.041s] -- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/environment/ament_prefix_path.dsv
+[17.041s] -- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/environment/path.sh
+[17.041s] -- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/environment/path.dsv
+[17.041s] -- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/local_setup.bash
+[17.041s] -- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/local_setup.sh
+[17.042s] -- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/local_setup.zsh
+[17.042s] -- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/local_setup.dsv
+[17.042s] -- Installing: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/package.dsv
+[17.042s] -- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/ament_index/resource_index/packages/rm_dh
+[17.042s] -- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/cmake/rm_dhConfig.cmake
+[17.042s] -- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/cmake/rm_dhConfig-version.cmake
+[17.042s] -- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/package.xml
+[17.047s] Invoked command in '/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh

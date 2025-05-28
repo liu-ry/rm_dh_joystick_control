@@ -1,0 +1,4 @@
+Invoking command in '/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nvidia/yyq/rm65_joystick_control/rm_dh -DCMAKE_INSTALL_PREFIX=/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh
+Invoked command in '/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nvidia/yyq/rm65_joystick_control/rm_dh -DCMAKE_INSTALL_PREFIX=/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh
+Invoking command in '/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh -- -j8 -l8
+Invoked command in '/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh -- -j8 -l8

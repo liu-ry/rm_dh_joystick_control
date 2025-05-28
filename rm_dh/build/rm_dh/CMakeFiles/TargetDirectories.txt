@@ -1,0 +1,10 @@
+/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh/CMakeFiles/uninstall.dir
+/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh/CMakeFiles/rm_dh_uninstall.dir
+/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh/CMakeFiles/rm_dh.dir
+/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh/CMakeFiles/test.dir
+/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh/CMakeFiles/edit_cache.dir
+/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh/CMakeFiles/rebuild_cache.dir
+/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh/CMakeFiles/list_install_components.dir
+/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh/CMakeFiles/install.dir
+/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh/CMakeFiles/install/local.dir
+/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh/CMakeFiles/install/strip.dir

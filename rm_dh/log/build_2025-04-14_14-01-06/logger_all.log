@@ -1,0 +1,82 @@
+[0.617s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.617s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffa428dcf0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa444f640>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa444f640>>, mixin_verb=('build',))
+[1.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.507s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nvidia/yyq/rm65_joystick_control/rm_dh'
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.543s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'rm_dh'
+[1.543s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.544s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.544s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.544s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.544s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.647s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.648s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.661s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 318 installed packages in /opt/ros/humble
+[1.664s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.736s] Level 5:colcon.colcon_core.verb:set package 'rm_dh' build argument 'cmake_args' from command line to 'None'
+[1.736s] Level 5:colcon.colcon_core.verb:set package 'rm_dh' build argument 'cmake_target' from command line to 'None'
+[1.736s] Level 5:colcon.colcon_core.verb:set package 'rm_dh' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.736s] Level 5:colcon.colcon_core.verb:set package 'rm_dh' build argument 'cmake_clean_cache' from command line to 'False'
+[1.737s] Level 5:colcon.colcon_core.verb:set package 'rm_dh' build argument 'cmake_clean_first' from command line to 'False'
+[1.737s] Level 5:colcon.colcon_core.verb:set package 'rm_dh' build argument 'cmake_force_configure' from command line to 'False'
+[1.737s] Level 5:colcon.colcon_core.verb:set package 'rm_dh' build argument 'ament_cmake_args' from command line to 'None'
+[1.737s] Level 5:colcon.colcon_core.verb:set package 'rm_dh' build argument 'catkin_cmake_args' from command line to 'None'
+[1.737s] Level 5:colcon.colcon_core.verb:set package 'rm_dh' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.737s] DEBUG:colcon.colcon_core.verb:Building package 'rm_dh' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh', 'merge_install': False, 'path': '/home/nvidia/yyq/rm65_joystick_control/rm_dh', 'symlink_install': False, 'test_result_base': None}
+[1.737s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.741s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.741s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nvidia/yyq/rm65_joystick_control/rm_dh' with build type 'ament_cmake'
+[1.741s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nvidia/yyq/rm65_joystick_control/rm_dh'
+[1.758s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.758s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.759s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nvidia/yyq/rm65_joystick_control/rm_dh -DCMAKE_INSTALL_PREFIX=/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh
+[6.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nvidia/yyq/rm65_joystick_control/rm_dh -DCMAKE_INSTALL_PREFIX=/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh
+[6.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh -- -j8 -l8
+[11.934s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[11.934s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[11.975s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_dh)
+[11.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh -- -j8 -l8
+[12.015s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh' for CMake module files
+[12.016s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh' for CMake config files
+[12.017s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/bin'
+[12.017s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/lib/pkgconfig/rm_dh.pc'
+[12.017s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/lib/python3.10/site-packages'
+[12.018s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/bin'
+[12.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/package.ps1'
+[12.023s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/package.dsv'
+[12.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/package.sh'
+[12.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/package.bash'
+[12.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/package.zsh'
+[12.035s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/colcon-core/packages/rm_dh)
+[12.047s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[12.048s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.048s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.048s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.071s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.071s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.071s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.134s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.136s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/local_setup.ps1'
+[12.140s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/_local_setup_util_ps1.py'
+[12.143s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/setup.ps1'
+[12.146s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/local_setup.sh'
+[12.149s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/_local_setup_util_sh.py'
+[12.151s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/setup.sh'
+[12.156s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/local_setup.bash'
+[12.159s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/setup.bash'
+[12.162s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/local_setup.zsh'
+[12.164s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/setup.zsh'

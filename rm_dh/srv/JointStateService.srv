@@ -1,0 +1,5 @@
+# 请求部分
+sensor_msgs/msg/JointState joint_state
+---
+# 响应部分
+bool success

@@ -1,0 +1,22 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/rm_dh.dir/src/rm_dh.cpp.o[0m
+[100%] [32m[1mLinking CXX executable rm_dh[0m
+[100%] Built target rm_dh
+-- Install configuration: ""
+-- Installing: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/launch
+-- Installing: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/lib/rm_dh/rm_dh
+-- Set runtime path of "/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/lib/rm_dh/rm_dh" to ""
+-- Installing: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/ament_index/resource_index/package_run_dependencies/rm_dh
+-- Installing: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/ament_index/resource_index/parent_prefix_path/rm_dh
+-- Installing: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/environment/ament_prefix_path.sh
+-- Installing: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/environment/ament_prefix_path.dsv
+-- Installing: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/environment/path.sh
+-- Installing: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/environment/path.dsv
+-- Installing: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/local_setup.bash
+-- Installing: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/local_setup.sh
+-- Installing: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/local_setup.zsh
+-- Installing: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/local_setup.dsv
+-- Installing: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/package.dsv
+-- Installing: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/ament_index/resource_index/packages/rm_dh
+-- Installing: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/cmake/rm_dhConfig.cmake
+-- Installing: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/cmake/rm_dhConfig-version.cmake
+-- Installing: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/package.xml

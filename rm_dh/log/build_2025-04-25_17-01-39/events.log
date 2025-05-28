@@ -1,0 +1,203 @@
+[0.000000] (-) TimerEvent: {}
+[0.000761] (rm_dh) JobQueued: {'identifier': 'rm_dh', 'dependencies': OrderedDict()}
+[0.001640] (rm_dh) JobStarted: {'identifier': 'rm_dh'}
+[0.019546] (rm_dh) JobProgress: {'identifier': 'rm_dh', 'progress': 'cmake'}
+[0.022521] (rm_dh) JobProgress: {'identifier': 'rm_dh', 'progress': 'build'}
+[0.022629] (rm_dh) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh', '--', '-j12', '-l12'], 'cwd': '/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/yyq/rm65_joystick_control'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('SYSTEMD_EXEC_PID', '4234'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nvidia'), ('ROOTFS_VERSION', '6.1'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1421125022056'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ISAAC_ROS_WS', '/mnt/nova_ssd/workspaces/isaac_ros-dev/'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/nvidia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3563,unix/ubuntu:/tmp/.ICE-unix/3563'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/56624ce6_ec35_4352_b169_73c73c75ab91'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.1'), ('JETSON_P_NUMBER', 'p3701-0005'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100607] (-) TimerEvent: {}
+[0.131271] (rm_dh) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rm_dh\x1b[0m\n'}
+[0.180946] (rm_dh) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rm_dh.dir/src/rm_dh.cpp.o\x1b[0m\n'}
+[0.201253] (-) TimerEvent: {}
+[0.302275] (-) TimerEvent: {}
+[0.403036] (-) TimerEvent: {}
+[0.503794] (-) TimerEvent: {}
+[0.604558] (-) TimerEvent: {}
+[0.706199] (-) TimerEvent: {}
+[0.808150] (-) TimerEvent: {}
+[0.909647] (-) TimerEvent: {}
+[1.010660] (-) TimerEvent: {}
+[1.111858] (-) TimerEvent: {}
+[1.213093] (-) TimerEvent: {}
+[1.314105] (-) TimerEvent: {}
+[1.415379] (-) TimerEvent: {}
+[1.516492] (-) TimerEvent: {}
+[1.617708] (-) TimerEvent: {}
+[1.718628] (-) TimerEvent: {}
+[1.819640] (-) TimerEvent: {}
+[1.920630] (-) TimerEvent: {}
+[2.021675] (-) TimerEvent: {}
+[2.122648] (-) TimerEvent: {}
+[2.223809] (-) TimerEvent: {}
+[2.324908] (-) TimerEvent: {}
+[2.425956] (-) TimerEvent: {}
+[2.527333] (-) TimerEvent: {}
+[2.628620] (-) TimerEvent: {}
+[2.730068] (-) TimerEvent: {}
+[2.831288] (-) TimerEvent: {}
+[2.933016] (-) TimerEvent: {}
+[3.034052] (-) TimerEvent: {}
+[3.135468] (-) TimerEvent: {}
+[3.236512] (-) TimerEvent: {}
+[3.337699] (-) TimerEvent: {}
+[3.440373] (-) TimerEvent: {}
+[3.542068] (-) TimerEvent: {}
+[3.643343] (-) TimerEvent: {}
+[3.744356] (-) TimerEvent: {}
+[3.845693] (-) TimerEvent: {}
+[3.946823] (-) TimerEvent: {}
+[4.047961] (-) TimerEvent: {}
+[4.148939] (-) TimerEvent: {}
+[4.250094] (-) TimerEvent: {}
+[4.351208] (-) TimerEvent: {}
+[4.452168] (-) TimerEvent: {}
+[4.553116] (-) TimerEvent: {}
+[4.654243] (-) TimerEvent: {}
+[4.755183] (-) TimerEvent: {}
+[4.856169] (-) TimerEvent: {}
+[4.957350] (-) TimerEvent: {}
+[5.058638] (-) TimerEvent: {}
+[5.159794] (-) TimerEvent: {}
+[5.261093] (-) TimerEvent: {}
+[5.362106] (-) TimerEvent: {}
+[5.463072] (-) TimerEvent: {}
+[5.564332] (-) TimerEvent: {}
+[5.665846] (-) TimerEvent: {}
+[5.766813] (-) TimerEvent: {}
+[5.867762] (-) TimerEvent: {}
+[5.968987] (-) TimerEvent: {}
+[6.069898] (-) TimerEvent: {}
+[6.170660] (-) TimerEvent: {}
+[6.271438] (-) TimerEvent: {}
+[6.372281] (-) TimerEvent: {}
+[6.473256] (-) TimerEvent: {}
+[6.574336] (-) TimerEvent: {}
+[6.675235] (-) TimerEvent: {}
+[6.776245] (-) TimerEvent: {}
+[6.878066] (-) TimerEvent: {}
+[6.979305] (-) TimerEvent: {}
+[7.080133] (-) TimerEvent: {}
+[7.181758] (-) TimerEvent: {}
+[7.282651] (-) TimerEvent: {}
+[7.383428] (-) TimerEvent: {}
+[7.484803] (-) TimerEvent: {}
+[7.586165] (-) TimerEvent: {}
+[7.686847] (-) TimerEvent: {}
+[7.787822] (-) TimerEvent: {}
+[7.888777] (-) TimerEvent: {}
+[7.989833] (-) TimerEvent: {}
+[8.090918] (-) TimerEvent: {}
+[8.191897] (-) TimerEvent: {}
+[8.292731] (-) TimerEvent: {}
+[8.393342] (-) TimerEvent: {}
+[8.494123] (-) TimerEvent: {}
+[8.595068] (-) TimerEvent: {}
+[8.695695] (-) TimerEvent: {}
+[8.796627] (-) TimerEvent: {}
+[8.897388] (-) TimerEvent: {}
+[8.998609] (-) TimerEvent: {}
+[9.099146] (-) TimerEvent: {}
+[9.199972] (-) TimerEvent: {}
+[9.300816] (-) TimerEvent: {}
+[9.401818] (-) TimerEvent: {}
+[9.502316] (-) TimerEvent: {}
+[9.603203] (-) TimerEvent: {}
+[9.704254] (-) TimerEvent: {}
+[9.805157] (-) TimerEvent: {}
+[9.909178] (-) TimerEvent: {}
+[10.010409] (-) TimerEvent: {}
+[10.111479] (-) TimerEvent: {}
+[10.212279] (-) TimerEvent: {}
+[10.313340] (-) TimerEvent: {}
+[10.414002] (-) TimerEvent: {}
+[10.515037] (-) TimerEvent: {}
+[10.615973] (-) TimerEvent: {}
+[10.716923] (-) TimerEvent: {}
+[10.818217] (-) TimerEvent: {}
+[10.919098] (-) TimerEvent: {}
+[11.020400] (-) TimerEvent: {}
+[11.121563] (-) TimerEvent: {}
+[11.222585] (-) TimerEvent: {}
+[11.324332] (-) TimerEvent: {}
+[11.425877] (-) TimerEvent: {}
+[11.527153] (-) TimerEvent: {}
+[11.628454] (-) TimerEvent: {}
+[11.729438] (-) TimerEvent: {}
+[11.830165] (-) TimerEvent: {}
+[11.931147] (-) TimerEvent: {}
+[12.032116] (-) TimerEvent: {}
+[12.133170] (-) TimerEvent: {}
+[12.234074] (-) TimerEvent: {}
+[12.335052] (-) TimerEvent: {}
+[12.435652] (-) TimerEvent: {}
+[12.536663] (-) TimerEvent: {}
+[12.637457] (-) TimerEvent: {}
+[12.738156] (-) TimerEvent: {}
+[12.839124] (-) TimerEvent: {}
+[12.940341] (-) TimerEvent: {}
+[13.041413] (-) TimerEvent: {}
+[13.142752] (-) TimerEvent: {}
+[13.243912] (-) TimerEvent: {}
+[13.345178] (-) TimerEvent: {}
+[13.446322] (-) TimerEvent: {}
+[13.547302] (-) TimerEvent: {}
+[13.648561] (-) TimerEvent: {}
+[13.750036] (-) TimerEvent: {}
+[13.850901] (-) TimerEvent: {}
+[13.952021] (-) TimerEvent: {}
+[14.052830] (-) TimerEvent: {}
+[14.153724] (-) TimerEvent: {}
+[14.254787] (-) TimerEvent: {}
+[14.355321] (-) TimerEvent: {}
+[14.455996] (-) TimerEvent: {}
+[14.556740] (-) TimerEvent: {}
+[14.657274] (-) TimerEvent: {}
+[14.758227] (-) TimerEvent: {}
+[14.859411] (-) TimerEvent: {}
+[14.960834] (-) TimerEvent: {}
+[15.064255] (-) TimerEvent: {}
+[15.165089] (-) TimerEvent: {}
+[15.265902] (-) TimerEvent: {}
+[15.366827] (-) TimerEvent: {}
+[15.467667] (-) TimerEvent: {}
+[15.568502] (-) TimerEvent: {}
+[15.669250] (-) TimerEvent: {}
+[15.770118] (-) TimerEvent: {}
+[15.871132] (-) TimerEvent: {}
+[15.972416] (-) TimerEvent: {}
+[16.073843] (-) TimerEvent: {}
+[16.086071] (rm_dh) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rm_dh\x1b[0m\n'}
+[16.174160] (-) TimerEvent: {}
+[16.275007] (-) TimerEvent: {}
+[16.375831] (-) TimerEvent: {}
+[16.477230] (-) TimerEvent: {}
+[16.578132] (-) TimerEvent: {}
+[16.679201] (-) TimerEvent: {}
+[16.780489] (-) TimerEvent: {}
+[16.881832] (-) TimerEvent: {}
+[16.940542] (rm_dh) StdoutLine: {'line': b'[100%] Built target rm_dh\n'}
+[16.974891] (rm_dh) CommandEnded: {'returncode': 0}
+[16.978540] (rm_dh) JobProgress: {'identifier': 'rm_dh', 'progress': 'install'}
+[16.982490] (-) TimerEvent: {}
+[17.000980] (rm_dh) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh'], 'cwd': '/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/yyq/rm65_joystick_control'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('SYSTEMD_EXEC_PID', '4234'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nvidia'), ('ROOTFS_VERSION', '6.1'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1421125022056'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ISAAC_ROS_WS', '/mnt/nova_ssd/workspaces/isaac_ros-dev/'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/nvidia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3563,unix/ubuntu:/tmp/.ICE-unix/3563'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/56624ce6_ec35_4352_b169_73c73c75ab91'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/yyq/rm65_joystick_control/rm_dh/build/rm_dh'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.1'), ('JETSON_P_NUMBER', 'p3701-0005'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[17.024581] (rm_dh) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.025067] (rm_dh) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/launch\n'}
+[17.025201] (rm_dh) StdoutLine: {'line': b'-- Installing: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/lib/rm_dh/rm_dh\n'}
+[17.040663] (rm_dh) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/lib/rm_dh/rm_dh" to ""\n'}
+[17.041101] (rm_dh) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/ament_index/resource_index/package_run_dependencies/rm_dh\n'}
+[17.041255] (rm_dh) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/ament_index/resource_index/parent_prefix_path/rm_dh\n'}
+[17.041945] (rm_dh) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/environment/ament_prefix_path.sh\n'}
+[17.042094] (rm_dh) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/environment/ament_prefix_path.dsv\n'}
+[17.042206] (rm_dh) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/environment/path.sh\n'}
+[17.042348] (rm_dh) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/environment/path.dsv\n'}
+[17.042886] (rm_dh) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/local_setup.bash\n'}
+[17.043028] (rm_dh) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/local_setup.sh\n'}
+[17.043139] (rm_dh) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/local_setup.zsh\n'}
+[17.043239] (rm_dh) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/local_setup.dsv\n'}
+[17.043336] (rm_dh) StdoutLine: {'line': b'-- Installing: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/package.dsv\n'}
+[17.043432] (rm_dh) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/ament_index/resource_index/packages/rm_dh\n'}
+[17.043526] (rm_dh) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/cmake/rm_dhConfig.cmake\n'}
+[17.043620] (rm_dh) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/cmake/rm_dhConfig-version.cmake\n'}
+[17.043714] (rm_dh) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yyq/rm65_joystick_control/rm_dh/install/rm_dh/share/rm_dh/package.xml\n'}
+[17.047730] (rm_dh) CommandEnded: {'returncode': 0}
+[17.079756] (rm_dh) JobEnded: {'identifier': 'rm_dh', 'rc': 0}
+[17.082407] (-) EventReactorShutdown: {}
