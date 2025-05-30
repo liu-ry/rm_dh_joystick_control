@@ -6,7 +6,6 @@
 #include "rm_service.h"
 #include "sensor_msgs/msg/joy.hpp"
 #include "std_msgs/msg/string.hpp"
-#include "rm_dh/srv/joint_command.hpp"  // 服务接口头文件
 #include <iostream>
 #include <sensor_msgs/msg/joint_state.hpp>
 #include "geometry_msgs/msg/pose.hpp"
@@ -58,9 +57,6 @@ public:
         }
     }
 
-    void handle_joint_command(
-                        const rm_dh::srv::JointCommand::Request::SharedPtr request,
-                        rm_dh::srv::JointCommand::Response::SharedPtr response);
     void joyCallback(const std_msgs::msg::String::SharedPtr msg);
     void actionJointCallback(const sensor_msgs::msg::JointState::SharedPtr msg);
     int MoveJoint(float Step, u_int32_t joint_id);
@@ -83,7 +79,6 @@ public:
 private:
     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
     rclcpp::Subscription<sensor_msgs::msg::JointState>::SharedPtr action_subscription_;
-    rclcpp::Service<rm_dh::srv::JointCommand>::SharedPtr service_;
     int arm_type_ = 65;
     bool follow_ = false;
 

@@ -20,17 +20,11 @@ Dh_Gripper::Dh_Gripper(std::string name) : Node(name)
         std::bind(&Dh_Gripper::joyCallback, this, std::placeholders::_1)); // 设置回调函数
     if(0 == model_flag)
     {
-        // // 创建订阅者，自动注册到节点
-        // action_subscription_ = this->create_subscription<sensor_msgs::msg::JointState>(
-        //     "gr00t_action_topic",                                               // 话题名称
-        //     10,                                                                 // 队列大小
-        //     std::bind(&Dh_Gripper::actionJointCallback, this, std::placeholders::_1)); // 设置回调函数
-        // 新增：创建服务端
-        service_ = this->create_service<rm_dh::srv::JointCommand>(
-        "gr00t_action_topic",
-        std::bind(&Dh_Gripper::handle_joint_command, this, 
-                    std::placeholders::_1, std::placeholders::_2)
-        );
+        // 创建订阅者，自动注册到节点
+        action_subscription_ = this->create_subscription<sensor_msgs::msg::JointState>(
+            "gr00t_action_topic",                                               // 话题名称
+            10,                                                                 // 队列大小
+            std::bind(&Dh_Gripper::actionJointCallback, this, std::placeholders::_1)); // 设置回调函数
     }
     else
     {
@@ -151,54 +145,6 @@ Dh_Gripper::Dh_Gripper(std::string name) : Node(name)
 
         res = Rm_Api_.Service_Change_Work_Frame(m_sockhand_, "Base", RM_BLOCK);
     }
-}
-
-void Dh_Gripper::handle_joint_command(
-                        const rm_dh::srv::JointCommand::Request::SharedPtr request,
-                        rm_dh::srv::JointCommand::Response::SharedPtr response) 
-{
-    // 打印接收到的命令
-    RCLCPP_INFO(this->get_logger(), "接收到关节命令");
-
-    auto msg = request->joint_state;
-    float current_joint[7];
-    for(int i = 0; i < msg.position.size(); ++i)
-    {
-        std::cout << "pos" << i << " = " << msg.position[i] << std::endl;
-        current_joint[i] = msg.position[i];
-    }
-
-    int res = Rm_Api_.Service_Movej_CANFD(m_sockhand_, current_joint, 0, 0.0);
-    if(0 != res)
-    {
-        RCLCPP_ERROR(this->get_logger(), "******** Move Failed ********");
-        std::cout << res << std::endl;
-        response->success = false;
-        return;
-    }
-    if(msg.position[6] > 1000)
-    {
-        msg.position[6] = 1000;
-    }
-    else if(msg.position[6] < 0)
-    {
-        msg.position[6] = 0;
-    }
-    std::cout << static_cast<int>(msg.position[6]) << std::endl;
-    res = Rm_Api_.Service_Write_Single_Register(m_sockhand_, rm_port_, dh_position_addr_, static_cast<int>(msg.position[6]), dh_addr_, block_);
-    if (0 == res)
-    {
-        RCLCPP_INFO(this->get_logger(), "******** Successfully ********");
-        current_coils_data_ = static_cast<int>(msg.position[6]);
-    }
-    else
-    {
-        RCLCPP_ERROR(this->get_logger(), "******** gripper Failed ********");
-        std::cout << res << std::endl;
-    }
-
-    // 设置响应结果
-    response->success = true;
 }
 
 int Dh_Gripper::MovePose(Pose pose, float *joint)
